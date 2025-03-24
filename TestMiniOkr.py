@@ -4,11 +4,11 @@ import os
 
 import minium
 
-numFlag = "03"
+numFlag = "05"
 
 def getPath(str):
     now = datetime.datetime.now()
-    timestamp = now.strftime("%Y-%m-%d/%H%M%S%f")[:-3]
+    timestamp = now.strftime("%Y-%m-%d/" + numFlag + "/%H%M%S%f")[:-3]
     return f"{timestamp}-{str}.png"
 
 # pip3 install minium
@@ -20,7 +20,7 @@ def getPath(str):
 class TestMiniOkr(minium.MiniTest):
 
     def shot(self, str):
-        path = f"D:/pythonwork/OKR-Mini-Automation/outputs/OKR-System/Mini/{numFlag}/{getPath(str)}"
+        path = f"D:/pythonwork/OKR-Mini-Automation/outputs/OKR-System/Mini/{getPath(str)}"
         output_path = os.path.join(os.path.dirname(__file__), path)
         if not os.path.exists(os.path.dirname(output_path)):
             os.makedirs(os.path.dirname(output_path))
@@ -122,6 +122,7 @@ class TestMiniOkr(minium.MiniTest):
         self.waitGet("slider", "").slide_to(50)
         self.waitGet("textarea.summaryInput", "").input("Minium 自动化测试结果通过率 100%")
         self.clickElement("view.addButton.blue", "确认")
+        time.sleep(1)
         self.shot("endOkr")
 
     def testCreateOkrCore(self):
@@ -129,7 +130,6 @@ class TestMiniOkr(minium.MiniTest):
         # self.mini.clear_auth()
         # self.page.get_element("page > view > view.login > button").click()
         # 创建 OKR
-        self.shot("startup")
         self.creteOkr()
         # self.app.screen_shot()
         # 创建初始化第一象限
@@ -143,6 +143,5 @@ class TestMiniOkr(minium.MiniTest):
         # 结束 OKR
         self.endOkr()
         # 结束
-        self.shot("shutdown")
         self.mini.shutdown()
 

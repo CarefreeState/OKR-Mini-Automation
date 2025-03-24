@@ -1,0 +1,64 @@
+[W 2025-03-24 16:47:40,265 minium.App9232 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 16:47:40,293 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 16:47:40,550 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 16:47:40,814 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 16:47:41,080 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 16:47:46,818 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:47,105 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:47,369 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:47,634 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:47,893 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:48,155 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:48,419 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:48,683 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:48,947 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:49,208 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:49,472 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:49,734 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:49,996 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:50,258 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:50,518 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:50,783 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:51,040 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:51,302 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:51,564 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[W 2025-03-24 16:47:51,822 minium page#747 _get_elements_by_css] Could not found any element 'textarea.inputBox' you need
+[E 2025-03-24 16:47:51,824 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 93, in testCreateOkrCore
+    self.firstQuadrantInit()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 39, in firstQuadrantInit
+    self.waitGet("textarea.inputBox", "").input("Minium 自动化测试")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 17, in waitGet
+    return page.get_element(str, text_contains=cotains)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 375, in get_element
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[textarea.inputBox] not found
+[E 2025-03-24 16:47:51,998 minium utils#166 wrapper] catch error: 'gbk' codec can't decode byte 0xaf in position 446: illegal multibyte sequence
+[E 2025-03-24 16:47:52,002 minium assertbase#390 _get_stack_info] <bound method TestMiniOkr.testCreateOkrCore of <TestMiniOkr.TestMiniOkr testMethod=testCreateOkrCore>>
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 266, in testPartExecutor
+    yield
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 351, in run
+    self._callTestMethod(testMethod)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 93, in testCreateOkrCore
+    self.firstQuadrantInit()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 39, in firstQuadrantInit
+    self.waitGet("textarea.inputBox", "").input("Minium 自动化测试")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 17, in waitGet
+    return page.get_element(str, text_contains=cotains)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 375, in get_element
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[textarea.inputBox] not found
+[W 2025-03-24 16:47:52,003 minium assertbase#354 _log_info_when_error] config: {'debug': False, 'base_dir': 'D:\\pythonwork\\OKR-Mini-Automation', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'warn', 'close_ide': False, 'auto_capture': 'auto', 'check_mp_foreground': True, 'auto_relaunch': True, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs', 'enable_app_log': False, 'enable_network_panel': False, 'project_path': 'D:\\java-research\\okr-miniprogram\\dist\\build\\mp-weixin', 'dev_tool_path': 'C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'enable_h5': True, 'autofix': False, 'framework_capture': True, 'error_capture': False, 'assert_capture': True, 'create_time': '20250324164654', 'case_output': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs\\20250324164654\\testCreateOkrCore\\20250324164717879736'}
+[W 2025-03-24 16:47:52,003 minium assertbase#355 _log_info_when_error] build info: {'version': '1.6.0', 'revision': '33ce5b50b34ec18c51c054a7cc1bdfb3ab0a451b', 'branch': 'master', 'update_at': '2024-10-09 21:08:56'}
+[W 2025-03-24 16:47:52,004 minium minitest#1029 _log_info_when_error] mini: 基础库3.7.8, 开发者工具1.06.2412050
+[W 2025-03-24 16:47:52,004 minium minitest#1031 _log_info_when_error] native: <minium.native.wx_native.idenative.IdeNative object at 0x000001D4444765E0>

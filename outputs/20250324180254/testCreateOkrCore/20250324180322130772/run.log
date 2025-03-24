@@ -1,0 +1,37 @@
+[W 2025-03-24 18:04:23,365 minium.App8896 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2025-03-24 18:04:23,367 minium minitest#929 capture] D:\pythonwork\OKR-Mini-Automation\outputs\20250324180254\testCreateOkrCore\20250324180322130772\images\setup.png not exists
+[W 2025-03-24 18:04:25,650 minium.App8896 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 18:04:25,672 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:25,943 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:26,199 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:26,467 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:47,616 minium.App8896 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 18:04:47,631 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:47,899 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:48,165 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:48,424 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:04:49,798 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:05:11,813 minium.App8896 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 18:05:11,821 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:12,088 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:12,349 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:12,614 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:15,070 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:05:17,330 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:05:19,562 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:05:22,068 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:05:40,964 minium.App8896 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 18:05:40,975 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:41,238 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:41,499 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:05:41,762 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:06:08,301 minium.App8896 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 18:06:08,314 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:06:08,579 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:06:08,840 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:06:09,102 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 18:06:11,829 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 18:06:15,077 minium.App8896 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2025-03-24 18:06:15,079 minium minitest#929 capture] D:\pythonwork\OKR-Mini-Automation\outputs\20250324180254\testCreateOkrCore\20250324180322130772\images\assertTrue-success_180613074275.png not exists
+[E 2025-03-24 18:06:15,110 minium.Conn6016 connection#642 _on_error] Connection to remote host was lost.
+[W 2025-03-24 18:06:16,092 minium minitest#929 capture] D:\pythonwork\OKR-Mini-Automation\outputs\20250324180254\testCreateOkrCore\20250324180322130772\images\teardown.png not exists

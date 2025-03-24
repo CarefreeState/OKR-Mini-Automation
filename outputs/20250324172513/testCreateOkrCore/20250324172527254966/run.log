@@ -1,0 +1,66 @@
+[W 2025-03-24 17:25:31,131 minium.App7760 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 17:25:31,152 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:31,425 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:31,681 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:31,946 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:53,333 minium.App7760 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 17:25:53,343 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:53,605 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:53,870 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:54,136 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:25:55,516 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:26:17,563 minium.App7760 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 17:26:17,577 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:17,849 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:18,113 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:18,377 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:20,840 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:26:23,614 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:26:25,831 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:26:28,058 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:26:47,102 minium.App7760 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 17:26:47,110 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:47,383 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:47,647 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:47,906 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:26:50,674 minium element#833 input] sdk version 3.7.8 may not support textarea.input, please use lower sdk version
+[W 2025-03-24 17:27:51,794 minium.App7760 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[E 2025-03-24 17:27:51,802 minium assertbase#62 hook_assert] False is not true
+[E 2025-03-24 17:27:51,991 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 121, in testCreateOkrCore
+    self.endOkr()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 104, in endOkr
+    self.shot("endOkr")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 27, in shot
+    self.assertTrue(os.path.isfile(output_path))
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\assertbase.py", line 60, in hook_assert
+    return src(self, *args, **kwargs)
+  File "C:\Users\马拉圈\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+[E 2025-03-24 17:27:52,136 minium assertbase#390 _get_stack_info] <bound method TestMiniOkr.testCreateOkrCore of <TestMiniOkr.TestMiniOkr testMethod=testCreateOkrCore>>
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 266, in testPartExecutor
+    yield
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 351, in run
+    self._callTestMethod(testMethod)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 121, in testCreateOkrCore
+    self.endOkr()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 104, in endOkr
+    self.shot("endOkr")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 27, in shot
+    self.assertTrue(os.path.isfile(output_path))
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\assertbase.py", line 60, in hook_assert
+    return src(self, *args, **kwargs)
+  File "C:\Users\马拉圈\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+[W 2025-03-24 17:27:52,138 minium assertbase#354 _log_info_when_error] config: {'debug': False, 'base_dir': 'D:\\pythonwork\\OKR-Mini-Automation', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'warn', 'close_ide': False, 'auto_capture': 'auto', 'check_mp_foreground': True, 'auto_relaunch': True, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs', 'enable_app_log': False, 'enable_network_panel': False, 'project_path': 'D:\\java-research\\okr-miniprogram\\dist\\build\\mp-weixin', 'dev_tool_path': 'C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'enable_h5': True, 'autofix': False, 'framework_capture': True, 'error_capture': False, 'assert_capture': True, 'create_time': '20250324172513', 'case_output': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs\\20250324172513\\testCreateOkrCore\\20250324172527254966'}
+[W 2025-03-24 17:27:52,138 minium assertbase#355 _log_info_when_error] build info: {'version': '1.6.0', 'revision': '33ce5b50b34ec18c51c054a7cc1bdfb3ab0a451b', 'branch': 'master', 'update_at': '2024-10-09 21:08:56'}
+[W 2025-03-24 17:27:52,139 minium minitest#1029 _log_info_when_error] mini: 基础库3.7.8, 开发者工具1.06.2412050
+[W 2025-03-24 17:27:52,139 minium minitest#1031 _log_info_when_error] native: <minium.native.wx_native.idenative.IdeNative object at 0x0000021FC12F65B0>

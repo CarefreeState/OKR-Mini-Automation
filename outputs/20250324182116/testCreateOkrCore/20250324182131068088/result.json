@@ -1,0 +1,295 @@
+{
+    "case_name": "testCreateOkrCore",
+    "run_time": "20250324 18:21:31",
+    "test_type": "TestMiniOkr",
+    "case_doc": null,
+    "success": false,
+    "failures": "Traceback (most recent call last):\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\.venv\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 266, in testPartExecutor\n    yield\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\.venv\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 351, in run\n    self._callTestMethod(testMethod)\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\.venv\\lib\\site-packages\\minium\\framework\\minitest.py\", line 789, in _callTestMethod\n    method()\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\TestMiniOkr.py\", line 144, in testCreateOkrCore\n    self.endOkr()\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\TestMiniOkr.py\", line 125, in endOkr\n    self.shot(\"endOkr\")\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\TestMiniOkr.py\", line 30, in shot\n    self.assertTrue(os.path.isfile(output_path))\n  File \"D:\\pythonwork\\OKR-Mini-Automation\\.venv\\lib\\site-packages\\minium\\framework\\assertbase.py\", line 60, in hook_assert\n    return src(self, *args, **kwargs)\n  File \"C:\\Users\\\u9a6c\u62c9\u5708\\AppData\\Local\\Programs\\Python\\Python38\\lib\\unittest\\case.py\", line 765, in assertTrue\n    raise self.failureException(msg)\nAssertionError: False is not true\n",
+    "errors": "",
+    "start_timestamp": 1742811692.786957,
+    "is_failure": true,
+    "is_error": false,
+    "module": "D:.pythonwork.OKR-Mini-Automation.TestMiniOkr",
+    "package": "TestMiniOkr",
+    "failed_line_num": 144,
+    "device": {
+        "system_info": {
+            "batteryLevel": 100,
+            "benchmarkLevel": -1,
+            "brand": "devtools",
+            "memorySize": 2048,
+            "model": "iPhone XR",
+            "system": "iOS 10.0.1",
+            "platform": "devtools",
+            "pixelRatio": 2,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "screenTop": 170,
+            "windowWidth": 414,
+            "windowHeight": 726,
+            "statusBarHeight": 44,
+            "version": "8.0.5",
+            "language": "zh_CN",
+            "SDKVersion": "3.7.8",
+            "enableDebug": false,
+            "fontSizeScaleFactor": 0.75,
+            "fontSizeSetting": 16,
+            "mode": "default",
+            "host": {
+                "env": "WeChat"
+            },
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "locationReducedAccuracy": true,
+            "albumAuthorized": true,
+            "bluetoothAuthorized": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "notificationBadgeAuthorized": true,
+            "notificationSoundAuthorized": true,
+            "phoneCalendarAuthorized": true,
+            "deviceOrientation": "portrait",
+            "devicePixelRatio": 2
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "AssertionError",
+    "error_value": "False is not true",
+    "error_extra_info": "",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/loginPage",
+            "path": "images\\setup.png",
+            "ts": 1742811692,
+            "datetime": "2025-03-24 18:21:32",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrIntroduce",
+            "path": "images\\assertTrue-success.png",
+            "ts": 1742811693,
+            "datetime": "2025-03-24 18:21:33",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182140770299.png",
+            "ts": 1742811700,
+            "datetime": "2025-03-24 18:21:40",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182204849008.png",
+            "ts": 1742811725,
+            "datetime": "2025-03-24 18:22:05",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182233380184.png",
+            "ts": 1742811753,
+            "datetime": "2025-03-24 18:22:33",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182234826505.png",
+            "ts": 1742811755,
+            "datetime": "2025-03-24 18:22:35",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182253371942.png",
+            "ts": 1742811773,
+            "datetime": "2025-03-24 18:22:53",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182255839484.png",
+            "ts": 1742811775,
+            "datetime": "2025-03-24 18:22:55",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182258227130.png",
+            "ts": 1742811778,
+            "datetime": "2025-03-24 18:22:58",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182300677902.png",
+            "ts": 1742811780,
+            "datetime": "2025-03-24 18:23:00",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-success",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-success_182302157133.png",
+            "ts": 1742811782,
+            "datetime": "2025-03-24 18:23:02",
+            "use_region": false
+        },
+        {
+            "name": "assertTrue-failed",
+            "url": "/pages/okrPerson",
+            "path": "images\\assertTrue-failed.png",
+            "ts": 1742811863,
+            "datetime": "2025-03-24 18:24:23",
+            "use_region": false
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/okrPerson",
+            "path": "images\\teardown.png",
+            "ts": 1742811863,
+            "datetime": "2025-03-24 18:24:23",
+            "use_region": false
+        }
+    ],
+    "step_info": [],
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": true,
+            "msg": null,
+            "img": "assertTrue-success",
+            "wxml": ""
+        },
+        {
+            "name": "assertTrue",
+            "ret": false,
+            "msg": "False is not true",
+            "img": "assertTrue-failed",
+            "wxml": "24182423.wxml"
+        }
+    ],
+    "autofix_info": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1742811863.339776,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    def testCreateOkrCore(self):\n",
+            "        # \u767b\u5f55\n",
+            "        # self.mini.clear_auth()\n",
+            "        # self.page.get_element(\"page > view > view.login > button\").click()\n",
+            "        # \u521b\u5efa OKR\n",
+            "        self.shot(\"startup\")\n",
+            "        self.creteOkr()\n",
+            "        # self.app.screen_shot()\n",
+            "        # \u521b\u5efa\u521d\u59cb\u5316\u7b2c\u4e00\u8c61\u9650\n",
+            "        self.firstQuadrantInit()\n",
+            "        # \u521b\u5efa\u521d\u59cb\u5316\u7b2c\u4e00\u8c61\u9650\n",
+            "        self.firstQuadrant()\n",
+            "        # \u5176\u4ed6\u8c61\u9650\n",
+            "        self.otherQuadrant()\n",
+            "        # \u65e5\u8bb0\u5f55\u6309\u94ae\n",
+            "        self.dayRecord()\n",
+            "        # \u7ed3\u675f OKR\n",
+            "        self.endOkr()\n",
+            "        # \u7ed3\u675f\n",
+            "        self.shot(\"shutdown\")\n",
+            "        self.mini.shutdown()\n"
+        ],
+        "start": 127
+    },
+    "filename": "result.json"
+}

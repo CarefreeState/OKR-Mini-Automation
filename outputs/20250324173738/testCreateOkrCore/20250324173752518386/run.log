@@ -1,0 +1,35 @@
+[W 2025-03-24 17:37:56,102 minium.App1456 app#1013 switch_tab] Switch tab(okrPerson) but(/pages/okrPerson)
+[W 2025-03-24 17:37:56,127 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:37:56,389 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:37:56,652 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[W 2025-03-24 17:37:56,916 minium page#747 _get_elements_by_css] Could not found any element 'text.uni-icons.uniui-close' you need
+[E 2025-03-24 17:38:01,540 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 117, in testCreateOkrCore
+    self.creteOkr()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 55, in creteOkr
+    self.shot("creteOkr")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 26, in shot
+    os.mkdir(os.path.dirname(output_path))
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:/pythonwork/OKR-Mini-Automation/outputs/OKR-System/Mini/01/2025-03-24'
+[E 2025-03-24 17:38:01,696 minium assertbase#390 _get_stack_info] <bound method TestMiniOkr.testCreateOkrCore of <TestMiniOkr.TestMiniOkr testMethod=testCreateOkrCore>>
+Traceback (most recent call last):
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 266, in testPartExecutor
+    yield
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\libs\unittest\case.py", line 351, in run
+    self._callTestMethod(testMethod)
+  File "D:\pythonwork\OKR-Mini-Automation\.venv\lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 117, in testCreateOkrCore
+    self.creteOkr()
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 55, in creteOkr
+    self.shot("creteOkr")
+  File "D:\pythonwork\OKR-Mini-Automation\TestMiniOkr.py", line 26, in shot
+    os.mkdir(os.path.dirname(output_path))
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:/pythonwork/OKR-Mini-Automation/outputs/OKR-System/Mini/01/2025-03-24'
+[W 2025-03-24 17:38:01,697 minium assertbase#354 _log_info_when_error] config: {'debug': False, 'base_dir': 'D:\\pythonwork\\OKR-Mini-Automation', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'warn', 'close_ide': False, 'auto_capture': 'auto', 'check_mp_foreground': True, 'auto_relaunch': True, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs', 'enable_app_log': False, 'enable_network_panel': False, 'project_path': 'D:\\java-research\\okr-miniprogram\\dist\\build\\mp-weixin', 'dev_tool_path': 'C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'enable_h5': True, 'autofix': False, 'framework_capture': True, 'error_capture': False, 'assert_capture': True, 'create_time': '20250324173738', 'case_output': 'D:\\pythonwork\\OKR-Mini-Automation\\outputs\\20250324173738\\testCreateOkrCore\\20250324173752518386'}
+[W 2025-03-24 17:38:01,697 minium assertbase#355 _log_info_when_error] build info: {'version': '1.6.0', 'revision': '33ce5b50b34ec18c51c054a7cc1bdfb3ab0a451b', 'branch': 'master', 'update_at': '2024-10-09 21:08:56'}
+[W 2025-03-24 17:38:01,697 minium minitest#1029 _log_info_when_error] mini: 基础库3.7.8, 开发者工具1.06.2412050
+[W 2025-03-24 17:38:01,697 minium minitest#1031 _log_info_when_error] native: <minium.native.wx_native.idenative.IdeNative object at 0x0000025479326580>
