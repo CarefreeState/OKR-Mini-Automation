@@ -4,7 +4,7 @@ import os
 
 import minium
 
-numFlag = "05"
+numFlag = "03"
 
 def getPath(str):
     now = datetime.datetime.now()
