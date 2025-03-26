@@ -20,7 +20,7 @@ def getPath(str):
 class TestMiniOkr(minium.MiniTest):
 
     def shot(self, str):
-        path = f"D:/pythonwork/OKR-Mini-Automation/outputs/OKR-System/Mini/{getPath(str)}"
+        path = f"D:/javawork/OKR-Test-Doc/images/automation/OKR-System/Mini/{getPath(str)}"
         output_path = os.path.join(os.path.dirname(__file__), path)
         if not os.path.exists(os.path.dirname(output_path)):
             os.makedirs(os.path.dirname(output_path))
